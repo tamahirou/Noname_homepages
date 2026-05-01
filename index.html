@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Team Noname | 鳥取ローバーチャレンジ</title>
+  <meta name="description" content="芝浦工業大学附属中学高等学校のロボットチーム「Noname」の公式サイト。鳥取ローバーチャレンジに挑戦中。TRC2026ブリヂストン賞受賞。スポンサー募集中。" />
+  <meta name="keywords" content="Noname, 鳥取ローバーチャレンジ, TRC, ローバー, ロボット, 芝浦工業大学附属, スポンサー" />
+  <meta property="og:title" content="Team Noname | 鳥取ローバーチャレンジ" />
+  <meta property="og:description" content="芝浦工業大学附属のロボットチームNonameの公式サイト。スポンサー募集中。" />
+  <meta property="og:type" content="website" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Noto+Sans+JP:wght@300;400;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ナビゲーション -->
+  <nav class="navbar" id="navbar">
+    <div class="nav-container">
+      <div class="nav-logo">
+        <span class="logo-bracket">[</span>Noname<span class="logo-bracket">]</span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#about" id="nav-about">私たちについて</a></li>
+        <li><a href="#team" id="nav-team">メンバー</a></li>
+        <li><a href="#achievements" id="nav-achievements">実績</a></li>
+        <li><a href="#sponsor" id="nav-sponsor" class="nav-cta">スポンサー募集</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="メニュー">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </nav>
+
+  <!-- モバイルメニュー -->
+  <div class="mobile-menu" id="mobileMenu">
+    <ul>
+      <li><a href="#about" class="mobile-link">私たちについて</a></li>
+      <li><a href="#team" class="mobile-link">メンバー</a></li>
+      <li><a href="#achievements" class="mobile-link">実績</a></li>
+      <li><a href="#sponsor" class="mobile-link">スポンサー募集</a></li>
+    </ul>
+  </div>
+
+  <!-- ヒーローセクション -->
+  <section class="hero" id="hero">
+    <div class="hero-bg">
+      <img src="rover_hero.png" alt="月面ローバーイメージ" class="hero-bg-img" />
+      <div class="hero-overlay"></div>
+      <div class="stars"></div>
+    </div>
+    <div class="hero-content">
+      <p class="hero-sub" id="hero-sub">鳥取ローバーチャレンジ 出場チーム</p>
+      <h1 class="hero-title" id="hero-title">
+        <span class="title-bracket">[</span>
+        <span class="title-name">Noname</span>
+        <span class="title-bracket">]</span>
+      </h1>
+      <p class="hero-school">芝浦工業大学附属中学高等学校</p>
+      <div class="hero-badges">
+        <span class="badge" id="badge-award">🏆 TRC2026 ブリヂストン賞</span>
+        <span class="badge" id="badge-trc">🌙 月面ローバー開発チーム</span>
+      </div>
+      <div class="hero-buttons">
+        <a href="#about" class="btn-primary" id="btn-hero-about">チームを知る</a>
+        <a href="#sponsor" class="btn-secondary" id="btn-hero-sponsor">スポンサーになる</a>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <div class="scroll-dot"></div>
+    </div>
+  </section>
+
+  <!-- Aboutセクション -->
+  <section class="section about-section" id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">ABOUT US</span>
+        <h2 class="section-title">私たちについて</h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-card glass-card" id="about-card-1">
+          <div class="about-icon">🤖</div>
+          <h3>チーム概要</h3>
+          <p>「Noname」は芝浦工業大学附属中学高等学校の生徒によって結成されたロボット開発チームです。鳥取砂丘の月面模擬フィールド「ルナテラス」を舞台に開催される<strong>鳥取ローバーチャレンジ（TRC）</strong>に挑戦しています。</p>
+        </div>
+        <div class="about-card glass-card" id="about-card-2">
+          <div class="about-icon">🛸</div>
+          <h3>鳥取ローバーチャレンジとは</h3>
+          <p>鳥取ローバーチャレンジは、全国の学生チームが月面探査ローバーの技術を競う大会です。鳥取砂丘に設けられた月面実証フィールドで自律走行・遠隔操作・科学タスクなどに挑戦します。</p>
+        </div>
+        <div class="about-card glass-card" id="about-card-3">
+          <div class="about-icon">⚡</div>
+          <h3>私たちの強み</h3>
+          <p>基板設計・プログラミング・機構設計を自分たちでゼロから行うチームです。リーダーはGASや電子工作の経験を持ち、独自設計の制御基板でローバーを駆動しています。</p>
+        </div>
+      </div>
+
+      <div class="about-detail glass-card" id="about-detail">
+        <div class="about-detail-text">
+          <h3>🌙 月面を夢見て、砂丘を駆ける</h3>
+          <p>私たちNonameは、宇宙探査への情熱を持つ高校生チームです。名前の「Noname」には、まだ名前を知られていなくても、実力で勝負するという意志が込められています。</p>
+          <p>ローバーの設計・製作・プログラミングをすべてチームで行い、大会本番では鳥取砂丘の月面模擬フィールドを舞台に他校チームと競います。TRC2026では<strong>ブリヂストン賞</strong>を受賞しました。</p>
+          <p>今後も大会への参加を続け、さらなる技術向上を目指しています。私たちの挑戦を支えてくださるスポンサーを募集しています。</p>
+        </div>
+        <div class="about-detail-stats">
+          <div class="stat-item">
+            <span class="stat-number">2026</span>
+            <span class="stat-label">TRC初出場年</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <span class="stat-number">1</span>
+            <span class="stat-label">受賞（ブリヂストン賞）</span>
+          </div>
+          <div class="stat-divider"></div>
+          <div class="stat-item">
+            <span class="stat-number">∞</span>
+            <span class="stat-label">宇宙への情熱</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- メンバーセクション -->
+  <section class="section team-section" id="team">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">MEMBERS</span>
+        <h2 class="section-title">チームメンバー</h2>
+      </div>
+      <div class="team-grid">
+        <div class="member-card glass-card featured" id="member-leader">
+          <div class="member-avatar">
+            <div class="avatar-ring"></div>
+            <div class="avatar-icon">👨‍💻</div>
+          </div>
+          <div class="member-badge">LEADER</div>
+          <h3 class="member-name">たまひろう</h3>
+          <p class="member-role">リーダー ＆ 基板設計</p>
+          <p class="member-desc">GASやスプレッドシートを用いたWebアプリ・システム開発や電子工作を担当。KiCadを使った独自制御基板の設計・発注を行い、チームの技術基盤を支える。</p>
+          <div class="member-tags">
+            <span class="tag">基板設計</span>
+            <span class="tag">GAS</span>
+            <span class="tag">電子工作</span>
+            <span class="tag">KiCad</span>
+          </div>
+          <a href="https://note.com/tamahirou" target="_blank" rel="noopener" class="member-link" id="link-leader-note">note を見る →</a>
+        </div>
+
+        <div class="member-card glass-card" id="member-2">
+          <div class="member-avatar">
+            <div class="avatar-ring"></div>
+            <div class="avatar-icon">⚙️</div>
+          </div>
+          <h3 class="member-name">メンバー</h3>
+          <p class="member-role">機構設計</p>
+          <p class="member-desc">ローバーの機械的な構造設計・製作を担当。砂地での走破性を追求したシャーシとサスペンション設計を行う。</p>
+          <div class="member-tags">
+            <span class="tag">機構設計</span>
+            <span class="tag">3Dプリント</span>
+          </div>
+        </div>
+
+        <div class="member-card glass-card" id="member-3">
+          <div class="member-avatar">
+            <div class="avatar-ring"></div>
+            <div class="avatar-icon">💻</div>
+          </div>
+          <h3 class="member-name">メンバー</h3>
+          <p class="member-role">ソフトウェア</p>
+          <p class="member-desc">ローバーの制御プログラム・自律走行アルゴリズムの開発を担当。センサーフュージョンと経路計画を実装。</p>
+          <div class="member-tags">
+            <span class="tag">プログラミング</span>
+            <span class="tag">自律制御</span>
+          </div>
+        </div>
+      </div>
+      <p class="team-note">※ メンバー情報は随時更新予定です。詳細はリーダーのnoteをご覧ください。</p>
+    </div>
+  </section>
+
+  <!-- 実績セクション -->
+  <section class="section achievements-section" id="achievements">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">ACHIEVEMENTS</span>
+        <h2 class="section-title">実績・活動記録</h2>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item" id="timeline-1">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content glass-card">
+            <span class="timeline-date">2026年3月</span>
+            <h3>🏆 TRC2026 ブリヂストン賞 受賞</h3>
+            <p>鳥取砂丘月面実証フィールド「ルナテラス」で開催された鳥取ローバーチャレンジ2026に出場。協賛企業の株式会社ブリヂストンが選定する「ブリヂストン賞」を受賞しました。</p>
+          </div>
+        </div>
+        <div class="timeline-item" id="timeline-2">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content glass-card">
+            <span class="timeline-date">2025年〜2026年</span>
+            <h3>🔧 独自制御基板の開発</h3>
+            <p>KiCadを用いてローバー専用のコントロール基板を設計・発注。DRV8262ベースのモータードライバモジュールを自作し、安定した駆動系を実現しました。</p>
+          </div>
+        </div>
+        <div class="timeline-item" id="timeline-3">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content glass-card">
+            <span class="timeline-date">これから</span>
+            <h3>🌙 次世代ローバーへの挑戦</h3>
+            <p>TRC2026の反省と経験を活かし、次回大会へ向けてさらに高度なシステムの開発を進めています。引き続きご支援をよろしくお願いします。</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- スポンサーセクション -->
+  <section class="section sponsor-section" id="sponsor">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">SPONSOR</span>
+        <h2 class="section-title">スポンサー募集</h2>
+        <p class="section-desc">Nonameの挑戦を、あなたの力で後押ししてください。</p>
+      </div>
+
+      <div class="sponsor-hero glass-card" id="sponsor-hero">
+        <div class="sponsor-hero-content">
+          <h3>🚀 未来の宇宙エンジニアを支える</h3>
+          <p>私たちNonameは、高校生でありながら本格的なロボット開発に挑戦しています。ローバーの材料費・部品費・大会参加費など、活動継続のためのご支援を広く募集しています。</p>
+          <p>スポンサー企業様には、ローバー本体やチームウェアへのロゴ掲載、当サイトへの掲載など、様々な形でPRの機会をご提供いたします。</p>
+        </div>
+      </div>
+
+      <div class="sponsor-plans">
+        <div class="plan-card glass-card" id="plan-gold">
+          <div class="plan-header gold">
+            <span class="plan-icon">⭐⭐⭐</span>
+            <h3>ゴールドスポンサー</h3>
+          </div>
+          <ul class="plan-benefits">
+            <li>✅ ローバー本体への大型ロゴ掲載</li>
+            <li>✅ チームウェアへのロゴ掲載</li>
+            <li>✅ 当サイトへのロゴ・リンク掲載（トップ）</li>
+            <li>✅ SNS・noteでの紹介記事</li>
+            <li>✅ 大会現地での名称アナウンス</li>
+          </ul>
+          <a href="#contact" class="btn-plan gold-btn" id="btn-plan-gold">お問い合わせ</a>
+        </div>
+
+        <div class="plan-card glass-card" id="plan-silver">
+          <div class="plan-header silver">
+            <span class="plan-icon">⭐⭐</span>
+            <h3>シルバースポンサー</h3>
+          </div>
+          <ul class="plan-benefits">
+            <li>✅ ローバー本体への中型ロゴ掲載</li>
+            <li>✅ 当サイトへのロゴ・リンク掲載</li>
+            <li>✅ SNS・noteでの紹介</li>
+          </ul>
+          <a href="#contact" class="btn-plan silver-btn" id="btn-plan-silver">お問い合わせ</a>
+        </div>
+
+        <div class="plan-card glass-card" id="plan-bronze">
+          <div class="plan-header bronze">
+            <span class="plan-icon">⭐</span>
+            <h3>ブロンズスポンサー</h3>
+          </div>
+          <ul class="plan-benefits">
+            <li>✅ 当サイトへの社名掲載</li>
+            <li>✅ noteでのお礼記事</li>
+          </ul>
+          <a href="#contact" class="btn-plan bronze-btn" id="btn-plan-bronze">お問い合わせ</a>
+        </div>
+      </div>
+
+      <div class="sponsor-note glass-card" id="sponsor-note">
+        <p>💡 上記プラン以外にも、物品提供・技術サポートなど様々な形でのご支援を歓迎しています。まずはお気軽にお問い合わせください。金額・条件は個別にご相談させていただきます。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- お問い合わせセクション -->
+  <section class="section contact-section" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">CONTACT</span>
+        <h2 class="section-title">お問い合わせ</h2>
+        <p class="section-desc">スポンサーに関するお問い合わせ・ご質問はこちらからどうぞ。</p>
+      </div>
+      <div class="contact-card glass-card" id="contact-card">
+        <div class="contact-options">
+          <a href="https://note.com/tamahirou/message" target="_blank" rel="noopener" class="contact-btn" id="contact-note">
+            <span class="contact-icon">📝</span>
+            <span>note でメッセージ</span>
+          </a>
+        </div>
+        <p class="contact-note">リーダーのnoteアカウントよりお問い合わせください。<br />返信まで数日いただく場合がございます。</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- フッター -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-brand">
+          <span class="logo-bracket">[</span>Noname<span class="logo-bracket">]</span>
+          <p>芝浦工業大学附属中学高等学校</p>
+          <p>鳥取ローバーチャレンジ 出場チーム</p>
+        </div>
+        <div class="footer-links">
+          <h4>リンク</h4>
+          <ul>
+            <li><a href="#about">私たちについて</a></li>
+            <li><a href="#team">メンバー</a></li>
+            <li><a href="#achievements">実績</a></li>
+            <li><a href="#sponsor">スポンサー募集</a></li>
+          </ul>
+        </div>
+        <div class="footer-external">
+          <h4>外部リンク</h4>
+          <ul>
+            <li><a href="https://note.com/tamahirou" target="_blank" rel="noopener">リーダーのnote</a></li>
+            <li><a href="https://www.tottori-rover-challenge.com" target="_blank" rel="noopener">鳥取ローバーチャレンジ公式</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Team Noname. All Rights Reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

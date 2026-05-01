@@ -1,0 +1,5 @@
+# Cloudflare Pages 設定
+# 静的サイトのためビルドコマンド不要
+
+[build]
+  publish = "/"
